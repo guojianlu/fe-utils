@@ -1,0 +1,7 @@
+lib
+es
+dist
+node_modules
+.jscpd
+*report.json
+coverage
