@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "lib",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "jsx": "preserve",
     "module": "ESNext",
@@ -11,7 +13,6 @@
     "importHelpers": true,
     "strictNullChecks": true,
     "forceConsistentCasingInFileNames": true,
-    "suppressImplicitAnyIndexErrors": true,
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {

@@ -2,8 +2,10 @@
   "name": "fe-utils",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "start": "tsc -w",
+    "build": "rm -rf lib && tsc",
     "f2elint-scan": "f2elint scan",
     "f2elint-fix": "f2elint fix"
   },
