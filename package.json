@@ -22,5 +22,14 @@
       "pre-commit": "f2elint commit-file-scan",
       "commit-msg": "f2elint commit-msg-scan"
     }
+  },
+  "repository": "git@github.com:guojianlu/fe-utils.git",
+  "dependencies": {
+    "@alifd/next": "^1.26.22",
+    "axios": "^1.4.0",
+    "dayjs": "^1.11.9",
+    "loglevel": "^1.8.1",
+    "react": "^18.2.0",
+    "uid": "^2.0.2"
   }
 }
