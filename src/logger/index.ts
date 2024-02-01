@@ -1,5 +1,5 @@
 import { log, info, warn, error, setLevel, LogLevelDesc } from 'loglevel';
-import isType from './type-check/is-type';
+import isType from '../type-check/is-type';
 
 export function setLogLevel(level?: LogLevelDesc) {
   if (level) {
