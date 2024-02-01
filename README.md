@@ -1,4 +1,4 @@
-# fe-utils
+# @ragingsnail/fe-utils
 
 前端工具库
 
@@ -24,11 +24,11 @@
 ### 安装
 
 ```shell
-npm install fe-utils
+npm install @ragingsnail/fe-utils
 ```
 
 ### 引用
 
 ```
-import { EventEmitter } from 'fe-utils';
+import { EventEmitter } from '@ragingsnail/fe-utils';
 ```
